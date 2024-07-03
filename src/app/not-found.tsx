@@ -48,6 +48,5 @@ export default function NotFound() {
         <Link href="/service-page">Services Page</Link>
       </LinksDiv>
     </StyledFlexColumn>
-
   );
 }
