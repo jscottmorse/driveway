@@ -1,5 +1,6 @@
-import mockOilAppointment from './mockOilAppointment.json';
-import mockTireAppointment from './mockTireAppointment.json';
+import mockDetailingAppointment from '@/app/services/mockDetailingAppointment.json';
+import mockOilAppointment from '@/app/services/mockOilAppointment.json';
+import mockTireAppointment from '@/app/services/mockTireAppointment.json';
 
 export type Services = 'detailing' | 'oil' | 'tire';
 
@@ -10,7 +11,7 @@ export type AppointmentResponse = {
 }
 
 const appointment = {
-  detailing: mockOilAppointment,
+  detailing: mockDetailingAppointment,
   oil: mockOilAppointment,
   tire: mockTireAppointment,
 }
